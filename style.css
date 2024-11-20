@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6dd5fa, #2980b9);
+    color: #fff;
+}
+
+/* Form Container */
+form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form Header */
+form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffcd3c;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Textbox Styling */
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ffcd3c;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+form input[type="number"]:focus {
+    border-color: #e6b600;
+    box-shadow: 0 0 5px #ffcd3c;
+    transform: scale(1.02);
+}
+
+/* Radio Buttons and Labels */
+form input[type="radio"] {
+    margin-right: 10px;
+}
+form label {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button Styling */
+form button {
+    background-color: #ffcd3c;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+form button:hover {
+    background-color: #e6b600;
+    transform: translateY(-3px);
+}
+
+/* Result Styling */
+form p#result {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #ffcd3c;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
